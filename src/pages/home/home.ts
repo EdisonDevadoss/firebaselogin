@@ -10,5 +10,11 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  signin(){
+    this.navCtrl.push('LoginPage');
+  }
+  signUp(){
+    this.navCtrl.push('RegisterPage');
+  }
 
 }
